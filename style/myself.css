@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+.header{
+    height: 100px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+}
+
+.nav{
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main_menu ul li{
+    display: inline;   
+}
+.main_menu ul li a{
+    color:#fce200 ;
+    margin-right: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 800;
+}
+.logo h1{
+    color: #fce200;
+    border: 3px solid #fce200;
+    padding: 5px;
+    font-weight: 900;
+}
+.contact_btn{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 14px 40px;
+    background-color: #fce200;
+    border: 1px solid #fce200 ;
+    border-radius: 8px;
+}
+.contact_btn:hover{
+    color: rgb(255, 255, 255);
+    background-color:rgb(0, 0, 0);
+    transition: 0.5s;
+}
+/* Section One */
+.sectionOne{
+    height: 600px;
+    background-image: url(../img/Prattoy.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    padding-top: 250px;
+    padding-left: 150px;
+}
+.sectionOne h2{
+    color: #fce200;
+    font-size: 50px;
+}
+.sectionOne p{
+    font-size: 18px;
+    color: #fce200;
+}
+/* Section Two */
+
+.sectionTwo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: #000;
+}
+.sectionTwo_left img{
+    max-width: 100%;
+    margin-left: 150px;
+    margin-right: -600px;
+    margin-top: 150px;
+    
+}
+.sectionTwo h2{
+    color: #fce200;
+    font-size: 36px;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.sectionTwo p{
+   color: white;
+   padding-bottom: 30px;
+   padding-right: 100px;
+}
+.second_peragraph{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: black;
+    padding-bottom: 100px;
+    padding-left: 150px;
+    padding-right: 140px;
+}
+/* Table */
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #101010;
+  }
+
+ /* Footer */
+ footer{
+    background-color: #101010;
+    height: 300px;
+ }
+.footer_content{
+    color: #fce200;
+    display: flex;
+    align-items: center;
+    width: 85%;
+    justify-content: space-between;
+    margin: auto;
+
+}
+.footer_logo h2{
+    color: #fce200;
+    border: 3px solid #fce200;
+    padding: 5px;
+    font-weight: 900;
+    font-size: 42px;
+    margin-top: 100px;
+    
+}
+.footer_menu{
+    margin-top: 100px;
+    width: 30%;
+}
+.footer_newslatter{
+    margin-top: 100px;
+   }
+.footer_newslatter_btn{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 9px 20px;
+    background-color: #fce200;
+    border: 1px solid #fce200 ;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+
+.footer_newslatter_btn:hover{
+    color: rgb(255, 255, 255);
+    background-color:#101010;
+    transition: 0.5s;
+ }
+
+
+
